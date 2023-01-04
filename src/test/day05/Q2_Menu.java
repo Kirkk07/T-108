@@ -47,7 +47,7 @@ public class Q2_Menu {
 
         System.out.println("======================= For i Cozumu ====================");
 
-        String[] ulkeler ={"american","italian","asian","afghani","indian"};
+      /*  String[] ulkeler ={"american","italian","asian","afghani","indian"};
 
         for (int i = 0; i < food.length; i++) {
 
@@ -56,6 +56,6 @@ public class Q2_Menu {
             for (int j = 0; j < food[i].length ; j++) {
                 System.out.println(food[i][j]);
             }
-        }
+        }*/
     }
 }
