@@ -1,13 +1,13 @@
 package day29_final_abstractClasses;
 
-public class C01_Final_finally {
-    int sayi=0;
-    final static String okulIsmi="Yildiz Koleji";
-
+public class C01_Final_Finally {
+    final int SAYI= 10;
+    final static String OKUL_ISMI= "Yildiz Koleji";//Heryerden ulasilabilsin ama kimse Degistirmesin.
+                                                    //Final ve Static Kullan.
     public static void main(String[] args) {
-       // okulIsmi="Java Koleji"; Cannot assign okulismi again bucause of Final
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Math.PI);
-
+        System.out.println(Integer.MAX_VALUE); // 2147483647
+        System.out.println(Math.PI); // 3.141592653589793
+        // final olarak tanimlanan variable'lara sonradan deger atanamaz
+        // bir convention(Egilim) olarak final variable isimleri buyuk harfle yazilir
     }
 }
