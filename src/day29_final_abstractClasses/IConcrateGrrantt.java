@@ -1,2 +1,6 @@
-package day29_final_abstractClasses;public class IConcrateGrrantt {
+package day29_final_abstractClasses;
+
+public  class IConcrateGrrantt extends HConcrateGrandChild{
+
+
 }
